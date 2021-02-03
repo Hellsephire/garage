@@ -59,7 +59,7 @@ public class Voiture {
 	 */
 	public boolean estDansUnGarage() {
 		// TODO: Implémenter cette méthode
-		throw new UnsupportedOperationException("Pas encore implémenté");
+                return myStationnements.size == 0 ;
 		// Vrai si le dernier stationnement est en cours
 	}
 
